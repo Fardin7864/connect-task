@@ -47,7 +47,7 @@ export default function App() {
           drawerContentStyle: {
             backgroundColor: '#3679e0'
           },
-          headerTintColor: '#fff',
+          headerTintColor: '#e6e6e6',
         }}
         initialRouteName='Home'
       >
@@ -61,7 +61,7 @@ export default function App() {
               style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
             />,
             headerTitle: 'Home',
-            headerRight: () => <TimerComponent />,
+            // headerRight: () => <TimerComponent />,
           }}
         />
         <Drawer.Screen 
