@@ -35,9 +35,22 @@ export default function App() {
             start={{ y: 1, x: 0.9 }}
             style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
           />,
+          headerTitle: '',
           }}
+          
           />
-          <Drawer.Screen name="Signin" component={Signin} />
+          <Drawer.Screen 
+          name="Signin" 
+          component={Signin}
+          options={{
+            headerBackground: () =>  <LinearGradient
+            colors={["#3697e5", "#3679e0"]}
+            start={{ y: 1, x: 0.9 }}
+            style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+          />,
+          headerTitle: '',
+          }}
+           />
         </Drawer.Navigator>
     </NavigationContainer>
   );
