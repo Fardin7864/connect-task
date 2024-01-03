@@ -2,6 +2,7 @@ import { Icon, Input, Button } from "@rneui/themed";
 import { LinearGradient } from "expo-linear-gradient";
 import React, { useState } from "react";
 import { Text, View } from "react-native";
+import Logo from "../../components/logo/Logo";
 // import Logo from "../../components/logo/Logo";
 
 
@@ -30,7 +31,7 @@ const Signin = ({navigation}) => {
       start={{ y: 1, x: 0.9 }}
       style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
     >
-        {/* <Logo/> */}
+        <Logo/>
       <View
         style={{
           width: "90%",
