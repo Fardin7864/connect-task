@@ -51,7 +51,7 @@ const Home = () => {
         </View>
           <View style={{height: '100%', backgroundColor: 'white', marginTop: 20, borderTopLeftRadius: 30, borderTopRightRadius: 30}}>
             <View style={{height: 2,width: 40, borderColor: "#3679e0", borderWidth: 2, alignSelf: 'center', marginTop: 15, borderRadius: 50}}></View>
-         <View>
+         <View style={{height: '100%'}}>
             <Tabs/>
          </View>
           </View>

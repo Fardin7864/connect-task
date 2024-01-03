@@ -1,0 +1,290 @@
+{
+    "topics": [
+      {
+        "title": "Introduction to HTML",
+        "img": "html_image.jpg",
+        "rating": 4.5,
+        "time": "2 hours",
+        "total_questions": 10,
+        "questions": [
+            {
+            "qsn_title": "What does HTML stand for?",
+            "options": ["Hyper Text Markup Language", "Highly Typed Modern Language", "Hyperlink and Text Markup Language", "Hyper Transfer Markup Language"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating an ordered list?",
+            "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the HTML 'alt' attribute in the 'img' tag?",
+            "options": ["Alternate text for the image", "Alignment of the image", "Altitude of the image", "Aspect ratio of the image"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "How to create a hyperlink in HTML?",
+            "options": ["<link>", "<a>", "<hyperlink>", "<url>"],
+            "ans": 1
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating a table?",
+            "options": ["<table>", "<tr>", "<td>", "<th>"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "What does the 'doctype' declaration in HTML do?",
+            "options": ["Defines the document type", "Declares a variable", "Specifies the document title", "Imports external stylesheets"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "In HTML, which tag is used for creating a line break?",
+            "options": ["<lb>", "<break>", "<br>", "<linebreak>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the 'meta' tag in HTML?",
+            "options": ["Defines metadata about the document", "Specifies font styles", "Creates a navigation menu", "Adds images to the document"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for embedding a video?",
+            "options": ["<video>", "<media>", "<embed>", "<play>"],
+            "ans": 0
+          }
+        ]
+      },
+      {
+        "title": "CSS Styling Techniques",
+        "img": "css_image.jpg",
+        "rating": 4.2,
+        "time": "1.5 hours",
+        "total_questions": 10,
+        "questions": [
+            {
+            "qsn_title": "What does HTML stand for?",
+            "options": ["Hyper Text Markup Language", "Highly Typed Modern Language", "Hyperlink and Text Markup Language", "Hyper Transfer Markup Language"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating an ordered list?",
+            "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the HTML 'alt' attribute in the 'img' tag?",
+            "options": ["Alternate text for the image", "Alignment of the image", "Altitude of the image", "Aspect ratio of the image"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "How to create a hyperlink in HTML?",
+            "options": ["<link>", "<a>", "<hyperlink>", "<url>"],
+            "ans": 1
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating a table?",
+            "options": ["<table>", "<tr>", "<td>", "<th>"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "What does the 'doctype' declaration in HTML do?",
+            "options": ["Defines the document type", "Declares a variable", "Specifies the document title", "Imports external stylesheets"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "In HTML, which tag is used for creating a line break?",
+            "options": ["<lb>", "<break>", "<br>", "<linebreak>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the 'meta' tag in HTML?",
+            "options": ["Defines metadata about the document", "Specifies font styles", "Creates a navigation menu", "Adds images to the document"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for embedding a video?",
+            "options": ["<video>", "<media>", "<embed>", "<play>"],
+            "ans": 0
+          }
+        ]
+      },
+      {
+        "title": "JavaScript Fundamentals",
+        "img": "js_image.jpg",
+        "rating": 4.7,
+        "time": "3 hours",
+        "total_questions": 10,
+        "questions": [
+            {
+            "qsn_title": "What does HTML stand for?",
+            "options": ["Hyper Text Markup Language", "Highly Typed Modern Language", "Hyperlink and Text Markup Language", "Hyper Transfer Markup Language"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating an ordered list?",
+            "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the HTML 'alt' attribute in the 'img' tag?",
+            "options": ["Alternate text for the image", "Alignment of the image", "Altitude of the image", "Aspect ratio of the image"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "How to create a hyperlink in HTML?",
+            "options": ["<link>", "<a>", "<hyperlink>", "<url>"],
+            "ans": 1
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating a table?",
+            "options": ["<table>", "<tr>", "<td>", "<th>"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "What does the 'doctype' declaration in HTML do?",
+            "options": ["Defines the document type", "Declares a variable", "Specifies the document title", "Imports external stylesheets"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "In HTML, which tag is used for creating a line break?",
+            "options": ["<lb>", "<break>", "<br>", "<linebreak>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the 'meta' tag in HTML?",
+            "options": ["Defines metadata about the document", "Specifies font styles", "Creates a navigation menu", "Adds images to the document"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for embedding a video?",
+            "options": ["<video>", "<media>", "<embed>", "<play>"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for embedding a video?",
+            "options": ["<video>", "<media>", "<embed>", "<play>"],
+            "ans": 0
+          }
+        ]
+      },
+      {
+        "title": "Responsive Web Design",
+        "img": "responsive_image.jpg",
+        "rating": 4.4,
+        "time": "2.5 hours",
+        "total_questions": 10,
+        "questions": [
+            {
+            "qsn_title": "What does HTML stand for?",
+            "options": ["Hyper Text Markup Language", "Highly Typed Modern Language", "Hyperlink and Text Markup Language", "Hyper Transfer Markup Language"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating an ordered list?",
+            "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the HTML 'alt' attribute in the 'img' tag?",
+            "options": ["Alternate text for the image", "Alignment of the image", "Altitude of the image", "Aspect ratio of the image"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "How to create a hyperlink in HTML?",
+            "options": ["<link>", "<a>", "<hyperlink>", "<url>"],
+            "ans": 1
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating a table?",
+            "options": ["<table>", "<tr>", "<td>", "<th>"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "What does the 'doctype' declaration in HTML do?",
+            "options": ["Defines the document type", "Declares a variable", "Specifies the document title", "Imports external stylesheets"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "In HTML, which tag is used for creating a line break?",
+            "options": ["<lb>", "<break>", "<br>", "<linebreak>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the 'meta' tag in HTML?",
+            "options": ["Defines metadata about the document", "Specifies font styles", "Creates a navigation menu", "Adds images to the document"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for embedding a video?",
+            "options": ["<video>", "<media>", "<embed>", "<play>"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for embedding a video?",
+            "options": ["<video>", "<media>", "<embed>", "<play>"],
+            "ans": 0
+          }
+        ]
+      },
+      {
+        "title": "Backend Development with Node.js",
+        "img": "nodejs_image.jpg",
+        "rating": 4.6,
+        "time": "4 hours",
+        "total_questions": 10,
+        "questions": [
+            {
+            "qsn_title": "What does HTML stand for?",
+            "options": ["Hyper Text Markup Language", "Highly Typed Modern Language", "Hyperlink and Text Markup Language", "Hyper Transfer Markup Language"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating an ordered list?",
+            "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the HTML 'alt' attribute in the 'img' tag?",
+            "options": ["Alternate text for the image", "Alignment of the image", "Altitude of the image", "Aspect ratio of the image"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "How to create a hyperlink in HTML?",
+            "options": ["<link>", "<a>", "<hyperlink>", "<url>"],
+            "ans": 1
+          },
+          {
+            "qsn_title": "Which HTML tag is used for creating a table?",
+            "options": ["<table>", "<tr>", "<td>", "<th>"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "What does the 'doctype' declaration in HTML do?",
+            "options": ["Defines the document type", "Declares a variable", "Specifies the document title", "Imports external stylesheets"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "In HTML, which tag is used for creating a line break?",
+            "options": ["<lb>", "<break>", "<br>", "<linebreak>"],
+            "ans": 2
+          },
+          {
+            "qsn_title": "What is the purpose of the 'meta' tag in HTML?",
+            "options": ["Defines metadata about the document", "Specifies font styles", "Creates a navigation menu", "Adds images to the document"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for embedding a video?",
+            "options": ["<video>", "<media>", "<embed>", "<play>"],
+            "ans": 0
+          },
+          {
+            "qsn_title": "Which HTML tag is used for embedding a video?",
+            "options": ["<video>", "<media>", "<embed>", "<play>"],
+            "ans": 0
+          }
+        ]
+      }
+    ]
+  }
+  
