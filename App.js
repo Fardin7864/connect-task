@@ -7,6 +7,7 @@ import Signup from './screens/signup/Signup';
 import Signin from './screens/signin/Signin';
 import { LinearGradient } from 'expo-linear-gradient';
 import Home from './screens/home/Home';
+import Details from './screens/details/Details';
 
 const Drawer = createDrawerNavigator();
 
@@ -49,7 +50,7 @@ export default function App() {
           },
           headerTintColor: '#e6e6e6',
         }}
-        initialRouteName='Home'
+        initialRouteName='Details'
       >
         <Drawer.Screen 
           name="Home" 
@@ -63,6 +64,19 @@ export default function App() {
             headerTitle: 'Home',
             // headerRight: () => <TimerComponent />,
           }}
+        />
+        <Drawer.Screen 
+          name="Details"  
+          component={Details}
+          options={({ route }) => ({
+            
+            headerBackground: () =>  <LinearGradient
+              colors={["#3697e5", "#3679e0"]}
+              start={{ y: 1, x: 0.9 }}
+              style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+            />,
+            headerTitle: 'Detail Quiz'  // Use dynamicName as the header title if available
+          })}
         />
         <Drawer.Screen 
           name="Signup" 

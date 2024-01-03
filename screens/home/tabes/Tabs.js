@@ -12,14 +12,15 @@ const Tab = createMaterialTopTabNavigator();
 const Tabs = () => {
   return (
     <Tab.Navigator
-      tabBarOptions={{
+      screenOptions={{
         activeTintColor: 'blue',
         inactiveTintColor: 'gray',
         style: {
           backgroundColor: 'white', 
           elevation: 0,
           borderTopWidth: 0,
-          borderRadius: 50
+          borderRadius: 50,
+         
         },
         labelStyle: {
           textTransform: 'none', 
@@ -38,7 +39,7 @@ const Tabs = () => {
         component={Science}
       />
       <Tab.Screen
-        name="Mathematics"
+        name="Math"
         component={Mathematics}
       />
       <Tab.Screen

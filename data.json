@@ -2,9 +2,9 @@
     "topics": [
       {
         "title": "Introduction to HTML",
-        "img": "html_image.jpg",
+        "img": "https://i.ibb.co/rMh0g3r/Coding-Projects-for-Kids-Make-Programming-Fun.webp",
         "rating": 4.5,
-        "time": "2 hours",
+        "time": "2 hours 30 min",
         "total_questions": 10,
         "questions": [
             {
@@ -56,9 +56,9 @@
       },
       {
         "title": "CSS Styling Techniques",
-        "img": "css_image.jpg",
+        "img": "https://i.ibb.co/89Cm255/7-Tips-and-Tricks-to-Learn-Programming-Faster.png",
         "rating": 4.2,
-        "time": "1.5 hours",
+        "time": "1 hours 15 min",
         "total_questions": 10,
         "questions": [
             {
@@ -110,7 +110,7 @@
       },
       {
         "title": "JavaScript Fundamentals",
-        "img": "js_image.jpg",
+        "img": "https://i.ibb.co/rMh0g3r/Coding-Projects-for-Kids-Make-Programming-Fun.webp",
         "rating": 4.7,
         "time": "3 hours",
         "total_questions": 10,
@@ -169,9 +169,9 @@
       },
       {
         "title": "Responsive Web Design",
-        "img": "responsive_image.jpg",
+        "img": "https://i.ibb.co/89Cm255/7-Tips-and-Tricks-to-Learn-Programming-Faster.png",
         "rating": 4.4,
-        "time": "2.5 hours",
+        "time": "2 hours 15 min",
         "total_questions": 10,
         "questions": [
             {
@@ -228,9 +228,9 @@
       },
       {
         "title": "Backend Development with Node.js",
-        "img": "nodejs_image.jpg",
-        "rating": 4.6,
-        "time": "4 hours",
+        "img": "https://i.ibb.co/rMh0g3r/Coding-Projects-for-Kids-Make-Programming-Fun.webp",
+        "rating": 4,
+        "time": "1 hours 15 min",
         "total_questions": 10,
         "questions": [
             {

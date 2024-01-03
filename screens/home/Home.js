@@ -1,6 +1,6 @@
 import { LinearGradient } from "expo-linear-gradient";
 import React from "react";
-import { Text, TextInput, View } from "react-native";
+import { Text, TextInput, View, ScrollView } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import Tabs from "./tabes/Tabs";
 
@@ -26,6 +26,7 @@ const Home = () => {
           >
             Let's test your knowledge
           </Text>
+          {/* Search section */}
           <View
             style={{
               backgroundColor: "#e6e6e6",
@@ -49,6 +50,7 @@ const Home = () => {
             </View>
           </View>
         </View>
+        {/* Tabs section */}
           <View style={{height: '100%', backgroundColor: 'white', marginTop: 20, borderTopLeftRadius: 30, borderTopRightRadius: 30}}>
             <View style={{height: 2,width: 40, borderColor: "#3679e0", borderWidth: 2, alignSelf: 'center', marginTop: 15, borderRadius: 50}}></View>
          <View style={{height: '100%'}}>
