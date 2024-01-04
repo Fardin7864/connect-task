@@ -13,6 +13,9 @@ const Tabs = () => {
   return (
     <Tab.Navigator
       screenOptions={{
+        tabBarLabelStyle:{
+          fontSize: 11,
+        },
         activeTintColor: 'blue',
         inactiveTintColor: 'gray',
         style: {
@@ -20,7 +23,6 @@ const Tabs = () => {
           elevation: 0,
           borderTopWidth: 0,
           borderRadius: 50,
-         
         },
         labelStyle: {
           textTransform: 'none', 
@@ -28,6 +30,7 @@ const Tabs = () => {
         indicatorStyle: {
           backgroundColor: 'blue', 
         },
+        
       }}
     >
       <Tab.Screen

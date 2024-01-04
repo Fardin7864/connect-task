@@ -50,7 +50,7 @@ export default function App() {
           },
           headerTintColor: '#e6e6e6',
         }}
-        initialRouteName='Details'
+        initialRouteName='Home'
       >
         <Drawer.Screen 
           name="Home" 

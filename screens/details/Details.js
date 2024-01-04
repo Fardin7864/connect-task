@@ -13,7 +13,8 @@ const Details = ({ route, navigation }) => {
       //   style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
     >
         {/* header section */}
-        <View style={{ width: "90%", alignSelf: "center" }}>
+        <View style={{ width: "90%", alignSelf: "center", flex: 1, flexDirection: 'row',justifyContent:'space-between'}}>
+          <View>
           <Text
             style={{
               color: "white",
@@ -31,6 +32,9 @@ const Details = ({ route, navigation }) => {
             </Text>{" "}
             {route.params?.dynamicName}
           </Text>
+          <Text style={{color: "#fff", left: 40, fontSize: 12}}>Get 100 Points.</Text>
+          </View>
+          <Text style={{alignSelf: 'center', color: 'white'}}><Text style={{fontSize: 20, color: 'gold'}}>★</Text>({route.params?.rating})</Text>
         </View>
         {/* Details section */}
         <View

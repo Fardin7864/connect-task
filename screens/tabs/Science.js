@@ -1,10 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { View, ScrollView, Text, TouchableWithoutFeedback, Image } from 'react-native';
 import fakeData from '../../data.json';
+import { useNavigation } from '@react-navigation/native';
 
 const Science = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [courses, setCourses] = useState(null);
+  const navigation = useNavigation();
+
+  const handleNavigateToDetails = (name,time) => {
+    // console.log("clicked!!")
+    navigation.navigate('Details', { dynamicName: `${name}`, time: `${time}` });
+    // console.log(name)
+  };
 
   useEffect(() => {
     try {
@@ -22,7 +30,7 @@ const Science = () => {
     <ScrollView contentContainerStyle={{ flexGrow: 1, alignItems: 'center', backgroundColor: 'white', paddingTop: 20 }}>
       <View style={{ flex: 1, width: '90%' }}>
         {courses?.map((topic, index) => (
-          <TouchableWithoutFeedback key={topic.title} onPress={() => handleCardPress(index)}>
+          <TouchableWithoutFeedback key={topic.title} onPress={() =>{ handleCardPress(index),handleNavigateToDetails(topic.title,topic.time)}}>
             <View
               style={{
                 borderWidth: selectedCard === index ? 2 : 0,

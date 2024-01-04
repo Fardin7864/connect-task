@@ -53,7 +53,7 @@ const Home = () => {
         {/* Tabs section */}
           <View style={{height: '100%', backgroundColor: 'white', marginTop: 20, borderTopLeftRadius: 30, borderTopRightRadius: 30}}>
             <View style={{height: 2,width: 40, borderColor: "#3679e0", borderWidth: 2, alignSelf: 'center', marginTop: 15, borderRadius: 50}}></View>
-         <View style={{height: '100%'}}>
+         <View style={{height: '90%',width: '98%', alignSelf: 'center'}}>
             <Tabs/>
          </View>
           </View>

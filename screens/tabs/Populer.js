@@ -8,9 +8,9 @@ const Populer = () => {
   const [courses, setCourses] = useState(null);
   const navigation = useNavigation();
 
-  const handleNavigateToDetails = (name,time) => {
+  const handleNavigateToDetails = (name,time,rating) => {
     // console.log("clicked!!")
-    navigation.navigate('Details', { dynamicName: `${name}`, time: `${time}` });
+    navigation.navigate('Details', { dynamicName: `${name}`, time: `${time}`, rating: `${rating}` });
     // console.log(name)
   };
 
@@ -30,7 +30,7 @@ const Populer = () => {
     <ScrollView  contentContainerStyle={{ flexGrow: 1, alignItems: 'center', backgroundColor: 'white', paddingTop: 20 }}>
       <View style={{ flex: 1, width: '90%' }}>
         {courses?.map((topic, index) => (
-          <TouchableWithoutFeedback key={topic.title} onPress={() =>{ handleCardPress(index),handleNavigateToDetails(topic.title,topic.time)}} >
+          <TouchableWithoutFeedback key={topic.title} onPress={() =>{ handleCardPress(index),handleNavigateToDetails(topic.title,topic.time,topic.rating)}} >
             <View
               style={{
                 borderWidth: selectedCard === index ? 2 : 0,
